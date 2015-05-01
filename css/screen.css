@@ -2559,6 +2559,7 @@ table{
     white-space: nowrap;
     color: #fff;
     background: #db3441;
+    opacity: 0.5;
     border-color: #db3441;
     padding: 12px 20px;
 }
@@ -4137,10 +4138,10 @@ figure.invert:hover img{
 }
 
 .big-footer .contact-block{
-    position: absolute;
+/*    position: absolute;
     width: 66%;
     bottom: 40px;
-    left: 27%;
+    left: 27%;*/
 }
 
 .footer-nav  li > ul{
