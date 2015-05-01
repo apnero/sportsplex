@@ -6330,10 +6330,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#490102', end
   margin: 0;
   padding: 10px 10px;
   color: white;
+  font-size: 18px;
 }
-#tw-widget2 .tweet p {
-  font-size: 20px;
-}
+
+  
 
 #tw-widget2 .tweet a {
   font-weight: bold;
