@@ -6251,3 +6251,115 @@ input[type=number]::-webkit-outer-spin-button {
 
 /* =======================================================================================
    ===================================  // MEDIA QUERIES ==================================  */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+
+.example2 {
+    overflow: hidden;
+    height: 420px;
+    min-height: 420px;
+
+}
+.example2 h2 {
+  margin: 0 0 1.5em;
+}
+.example2:before, .example2:after {
+/*  content: "";
+  position: absolute;
+  background: #1abc9c;
+  top: 0;
+  bottom: 0;
+  width: 9999px;*/
+}
+.example2:before {
+  right: 100%;
+}
+.example2:after {
+  left: 100%;
+}
+
+#tw-widget2 {
+background: -moz-linear-gradient(-45deg, rgba(73,1,2,1) 0%, rgba(150,0,17,0.83) 59%, rgba(126,0,22,0.78) 77%, rgba(109,0,25,0.68) 90%, rgba(109,0,25,0.61) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(73,1,2,1)), color-stop(59%,rgba(150,0,17,0.83)), color-stop(77%,rgba(126,0,22,0.78)), color-stop(90%,rgba(109,0,25,0.68)), color-stop(100%,rgba(109,0,25,0.61))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg, rgba(73,1,2,1) 0%,rgba(150,0,17,0.83) 59%,rgba(126,0,22,0.78) 77%,rgba(109,0,25,0.68) 90%,rgba(109,0,25,0.61) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg, rgba(73,1,2,1) 0%,rgba(150,0,17,0.83) 59%,rgba(126,0,22,0.78) 77%,rgba(109,0,25,0.68) 90%,rgba(109,0,25,0.61) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg, rgba(73,1,2,1) 0%,rgba(150,0,17,0.83) 59%,rgba(126,0,22,0.78) 77%,rgba(109,0,25,0.68) 90%,rgba(109,0,25,0.61) 100%); /* IE10+ */
+background: linear-gradient(135deg, rgba(73,1,2,1) 0%,rgba(150,0,17,0.83) 59%,rgba(126,0,22,0.78) 77%,rgba(109,0,25,0.68) 90%,rgba(109,0,25,0.61) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#490102', endColorstr='#9c6d0019',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */}
+#tw-widget2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#tw-widget2 li {
+  width: 90%;
+  margin: 0 auto;
+  float: none;
+}
+@media (min-width: 48em) {
+  #tw-widget2 li {
+    /*width: calc(100% / 3);*/
+    float: left;
+  }
+}
+#tw-widget2 a {
+  text-decoration: none;
+  color: #a9a9a9;
+}
+#tw-widget2 .user {
+  padding: 20px 20px 16px;
+  position: relative;
+}
+#tw-widget2 .user a span {
+  display: block;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+}
+#tw-widget2 .user a img[data-scribe="element:avatar"] {
+  display: none;
+}
+#tw-widget2 .user a span[data-scribe="element:name"] {
+  font-size: 20px;
+}
+#tw-widget2 .user a span[data-scribe="element:screen_name"] {
+  font-size: 14px;
+  color: black;
+}
+#tw-widget2 .tweet {
+  margin: 0;
+  padding: 10px 10px;
+  color: white;
+}
+#tw-widget2 .tweet p {
+  font-size: 20px;
+}
+
+#tw-widget2 .tweet a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+#tw-widget2 .tweet a[data-scribe="element:url"] {
+  text-decoration: underline;
+}
+#tw-widget2 .tweet a[data-scribe="element:hashtag"] {
+  color: #ecf0f1;
+}
+#tw-widget2 .tweet img[aria-label^="Emoji"] {
+  max-height: 14px;
+}
+#tw-widget2 .timePosted {
+  margin: 0;
+  padding: 0 20px;
+  font-size: 14px;
+  text-align: left;
+}
+#tw-widget2 .timePosted:before {
+  font-family: "Fontawesome";
+  -webkit-font-smoothing: antialiased;
+  content: "";
+  padding-right: 4px;
+}
+
+
