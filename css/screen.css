@@ -1931,7 +1931,7 @@ blockquote a:hover{
 }
 
 .main-slider{
-    background: url('../images/slides/sportify-slide.jpg') no-repeat 50% 50%; 
+    background: url('../images/main.png') no-repeat 50% 50%; 
     background-size: cover;
 }
 
@@ -2591,6 +2591,7 @@ table{
 .timetable tbody td a{
     display: block;
     color: #fff;
+    background-color: rgba(39, 31, 147, 0.57);
 }
 
 .striped-col td:nth-child(even),
@@ -3408,7 +3409,7 @@ table{
 
 .classes-box nav .toggle-content{
     position: absolute;
-    bottom: 22px;
+    bottom: -10px;
     left: 100%;
     z-index: 1;
     width: 110%;
@@ -3422,11 +3423,11 @@ table{
 }
 
 .classes-box .menu-item-content .content{
-    padding: 0px 40px 10px 40px;
+    padding: 0px 40px 10px 20px;
 }
 
 .classes-box .menu-item-content .padding{
-    padding: 0px 40px 40px;
+    padding: 0px 40px 20px;
 }
 
 
@@ -3776,6 +3777,14 @@ table{
 
 /*      Programms ================================== */
 
+.programms-block {
+  position:absolute;
+  top:0px;
+  right:25px;
+  background-color:rgba(0, 0, 0, 0.26);
+}
+
+
 .programms-block .entry-header{
     float: left;
     margin-top: 3px;
@@ -3793,19 +3802,19 @@ table{
 .programms-block .programm-list li{
     overflow: hidden;
     font-family: "RobotoBold";
-    font-size: 12px;
+    font-size: 15px;
     text-transform: uppercase;
-    color: #6a6a6a;
+   /* color: #6a6a6a;*/
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .programms-block header time{
     position: relative;
     top: 0;
-    left: 20px;
+    left: 50px;
     font-family: "RobotoRegular";
     float: left;
-    padding: 0 10px;
+    padding: 0 30px;
 }
 
 .programms-block header time strong{
@@ -3814,7 +3823,7 @@ table{
 
 .programm-time{
     white-space: nowrap;
-    color: #35BDB3;
+    /*color: #35BDB3;*/
 }
 
 .box .programms-block .entry-header a{
@@ -4134,7 +4143,7 @@ figure.invert:hover img{
 }
 
 .gmap-container{
-    padding-top: 18px;
+    padding-top: 8px;
 }
 
 .big-footer .contact-block{
@@ -4253,8 +4262,8 @@ figure.invert:hover img{
 }
 
 .main-footer .contact-info{
-    margin-top: 10px;
-    padding-bottom: 30px;
+    margin-top: 40px;
+    padding-bottom: 98px;
 }
 
 .main-footer .contact-info p{
@@ -6362,4 +6371,39 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#490102', end
   padding-right: 4px;
 }
 
+
+/*.pop{
+    position:absolute;
+    top:43%;
+    left:50%;
+}*/
+
+.popover  {
+background: #000000!important;
+}
+
+.arrow{
+  visibility:hidden;
+}
+.popover.bottom .arrow{
+  visibility:hidden;
+  color:#000000;
+}
+
+.popover-title {
+    background-color: #000000;
+    border-bottom: 0;
+    font-size:18px;
+    color: rgb(238, 213, 255);
+
+}
+
+.popover-content {
+color: rgb(238, 213, 255);
+
+}
+
+.popover.bottom .arrow:after {
+  border-bottom-color:#000000;
+}
 

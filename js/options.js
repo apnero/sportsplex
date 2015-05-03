@@ -127,7 +127,7 @@ var teslaThemes = {
     }
 
 
-    jQuery("#home").fitVids({ customSelector: "iframe[src^='//player.vimeo.com'], iframe[src^='//www.youtube.com']"});
+    jQuery("#home").fitVids();//{ customSelector: "iframe[src^='//player.vimeo.com'], iframe[src^='//www.youtube.com']"});
   },
 
   scrolld: function () {
@@ -238,6 +238,7 @@ var teslaThemes = {
         jQuery( '#home_slider' ).sudoSlider({
            numeric: false,
            auto: true,
+           pause: 4000,
            responsive: true,
            vertical: false,
            autoHeight: true,
