@@ -249,7 +249,10 @@ var teslaThemes = {
            numericattr:       'class="slider-nav"',
            slideCount: 1,
            continuous: true,
-           animationZIndex: 10
+           animationZIndex: 10,
+           // beforeAnimation: function(t){ var id = $(this).find("video").attr("id"); 
+           //                               if(id) {document.getElementById(id).playbackRate = 0.7;}
+           //                             } 
         });
     });
   },
