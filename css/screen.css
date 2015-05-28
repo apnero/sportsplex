@@ -402,7 +402,7 @@ body .no-spacing [class*="col-"] {
     top: -24%;
     width: 100%;
     min-height: 640px;
-    background: #eaeaea;
+    /*background: #eaeaea;*/
 }
 
 .underneath-light > .box-header .entry-header{
@@ -6409,3 +6409,8 @@ color: rgb(238, 213, 255);
   border-bottom-color:#000000;
 }
 
+
+.classdesc {
+
+  margin-top: 25px;
+}
