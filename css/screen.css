@@ -213,6 +213,8 @@ figure {
 
 .white-background .entry-header{
     color: #000;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .black-background{
@@ -292,7 +294,7 @@ figure {
 }
 
 hr{
-  margin: 16px 0;
+  margin: 8px 0 2px 0;
   border-top: 1px solid;
   color: #e5e5e5;
 }
@@ -681,7 +683,7 @@ p {
     font-family: "RobotoRegular";
     font-size: 14px;
     color: #6f6f6f;
-    margin: 0 0 22px;
+    margin: 0 2px 22px;
 }
 
 dl,
@@ -3380,7 +3382,7 @@ table{
     top: -260px;
     left: 0;
     z-index: 2;
-
+    line-height: 1.15;
     font-family: "AntonioRegular";
     font-size: 84px;
     color: #fff;
@@ -3388,7 +3390,7 @@ table{
 }
 
 .classes-box nav .classes-boxing:hover:after{
-    content: "BOXING";
+    content: "LES MILLS";
     opacity: 0.8;
 }
 
@@ -3398,12 +3400,12 @@ table{
 }
 
 .classes-box nav .classes-gym-fitness:hover:after{
-    content: "FITNESS";
+    content: "CARDIO TRAINING";
     opacity: 0.8;
 }
 
 .classes-box nav .classes-shaping:hover:after{
-    content: "SHAPING";
+    content: "SHAPING & SCULPTING";
     opacity: 0.8;
 }
 
