@@ -6414,3 +6414,21 @@ color: rgb(238, 213, 255);
 
   margin-top: 25px;
 }
+
+.exclass{
+    border-width: 10px;
+    border-style: solid;
+    padding: 5px;
+    border-color: rgba(0, 0, 0, 1);
+    background-color: rgba(252, 104, 104, 0.28);
+}
+
+.exclass:hover{
+  background-color: rgba(60, 8, 16, 1);
+  z-index:100;
+}
+
+.exclass p{
+
+  color:#ffffff;
+}
