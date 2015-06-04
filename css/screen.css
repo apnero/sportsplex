@@ -683,7 +683,7 @@ p {
     font-family: "RobotoRegular";
     font-size: 14px;
     color: #6f6f6f;
-    margin: 0 2px 22px;
+    margin: 0 4px 22px;
 }
 
 dl,
@@ -3782,8 +3782,9 @@ table{
 .programms-block {
   position:absolute;
   top:0px;
-  right:25px;
-  background-color:rgba(0, 0, 0, 0.26);
+  right: 0px;
+  background-color:rgba(0, 0, 0, 0.30);
+  z-index:100;
 }
 
 

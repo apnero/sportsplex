@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>cssSlider</AppName>
+            <AppUrlS>cssSlider.com</AppUrlS>
+            <AppVersion>2.0</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <Captions>true</Captions>
+            <CaptionsEffect>slide</CaptionsEffect>
+            <Controls>false</Controls>
+            <GalleryDesc></GalleryDesc>
+            <GalleryKeywords></GalleryKeywords>
+            <GalleryName>cssslider</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <GalleryTitle></GalleryTitle>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>kenburns</ImageEffect>
+            <ImageFillColor>#FFFFFF</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>:/templates/backgnd/basic/</ImageTemplate>
+            <ImageTemplateName>Basic</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <PageBgColor>#f0f0f0</PageBgColor>
+            <PlayPause>false</PlayPause>
+            <PublishFileName>C:/Users/Andrew/Downloads/cssslider.html</PublishFileName>
+            <PublishIndex>cssslider.html</PublishIndex>
+            <PublishPath>C:/Users/Andrew/Downloads</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>0</ShowBullets>
+            <ShowTooltips>true</ShowTooltips>
+            <SlideshowDelay>60</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>false</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <TemplateFont>Open Sans Condensed</TemplateFont>
+            <TemplateName>basic</TemplateName>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <WatermarkAlign>66</WatermarkAlign>
+            <WatermarkBgColor>#ffffff</WatermarkBgColor>
+            <WatermarkColor>#514242</WatermarkColor>
+            <WatermarkHaveBgColor>true</WatermarkHaveBgColor>
+            <WatermarkImage></WatermarkImage>
+            <WatermarkOpacity>80</WatermarkOpacity>
+            <WatermarkText>cssSlider.com</WatermarkText>
+            <WatermarkType>1</WatermarkType>
+            <color>#CBECFD</color>
+            <descriptionPos>center</descriptionPos>
+            <enableTouch>true</enableTouch>
+            <fullWidth>0</fullWidth>
+            <ieSupport>false</ieSupport>
+            <noFrame>false</noFrame>
+            <showHover>false</showHover>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Andrew/Documents/github/sportsplex/images/photos/classes-combat.jpg</url>
+                <title>Sportsplex Group Exercise</title>
+                <description>Our group exercise programs are designed for all levels, ages, and lifestyles.  More Classes Than Any Other Club In The Area.  We Feature Les Mills.
+
+</description>
+            </Image>
+            <Image>
+                <url>C:/Users/Andrew/Documents/github/sportsplex/images/photos/gym.jpg</url>
+                <title>Northern Fairfield County's  largest  PREMIER athletic and fitness facility with 25,000 sq. ft. of space for your enjoyment. </title>
+                <description>We are serious about fitness, our Free Weight area in an Olympic class facility featuring Hammer Strength and Life Fitness equipment with over 10,000 pounds of iron.  Our mirrored dumbell rack area goes up to 120 pounds.
+</description>
+            </Image>
+            <Image>
+                <url>C:/Users/Andrew/Documents/github/sportsplex/images/photos/racketball.jpg</url>
+                <title>Squash and Racketball</title>
+                <description>Squash is a game that develops and improves the efficiency of human movement. It builds athletic grace and produces the type of functional fitness you need day-to-day out in the real world.</description>
+            </Image>
+            <Image>
+                <url>C:/Users/Andrew/Documents/github/sportsplex/images/photos/childcare.png</url>
+                <title>Childcare</title>
+                <description>We Offer On-Site childcare supervised by experienced and friendly staff.</description>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
