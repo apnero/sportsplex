@@ -700,28 +700,65 @@
 							</div>
 
 							<div class="contact-info dark-background block-padding">
-								<h2 class="entry-header">Hours</h2>
-								<div class="col-md-6 col-sm-6 col-xs-6">
-									<p><strong>Monday - Thursday</strong></p>
-									<p><strong>Friday</strong></p>
-									<p><strong>Saturday - Sunday</strong></p>
-								</div>
-								<div class="col-md-6 col-sm-6 col-xs-6">
-									<p>5:00 AM - 9:30 PM</p>
-									<p>5:00 AM - 9:00 PM</p>
-									<p>6:30 AM - 4:00 PM</p>
+								<h2 class="entry-header">Sportsplex Hours</h2>
+								<div class="row">
+									<div class="col-md-6 col-sm-6 col-xs-6">
+										<p><strong>Monday - Thursday</strong></p>
+										<p><strong>Friday</strong></p>
+										<p><strong>Saturday - Sunday</strong></p>
+									</div>
+									<div class="col-md-6 col-sm-6 col-xs-6">
+										<p>5:00 AM - 9:30 PM</p>
+										<p>5:00 AM - 9:00 PM</p>
+										<p>6:30 AM - 4:00 PM</p>
+									</div>
 								</div>
 								
+								<h2 style="margin-top:20px;" class="entry-header">Kids Club Hours</h2>
+								<div class="row">	
+									<div class="col-md-6 col-sm-6 col-xs-6">
+										<p><strong>Monday &amp Friday</strong></p>
+										<p><strong>Tuesday - Thursday</strong></p>
+										<p><strong>Saturday - Sunday</strong></p>
+									</div>
+									<div class="col-md-6 col-sm-6 col-xs-6">
+										<p>9:00 AM - 1:15 PM</p>
+										<p>9:00 AM - 12:00 PM</p>
+										<p>No Kids Club</p>
+									</div>
+								</div>
+
+
+								<h2 style="margin-top:20px;" class="entry-header">Inclement Weather Policy</h2>
+								<div class="row">	
+									<ul>If Bethel Schools are closed:*
+										<li>Kids Club will be Closed.</li>
+										<li>There will be no morning Group Exercise Classes.</li>
+										<li>Group Exercise classes will start at 4:30pm depending on the weather.</li>
+										<li>Sportsplex will be open depending on the weather.</li>
+									</ul>
+									<ul>If Bethel Schools have a delayed opening:*
+										<li>Group Exercise classes will start at 9:15am and will follow the normal schedule for the day.</li>
+										<li>Sportsplex will be open.</li>
+									</ul>
+									<ul>If Bethel Schools have an early dismissal:*
+										<li>Group Exercise classes will start at 6:00am as usual and will go to 12:15pm.</li>
+										<li>Sportsplex will be open in the morning and may stay open.</li>
+										<li>Group Exercise classes starting at 4:30pm will be help depending on the weather.</li>
+									</ul>
+								</div>
+								<h2 class="entry-header">*Check Facebook for the Latest Updates:</h2>
+
+									<div class="socials	">
+										<ul class="clean-list social-links clearfix">
+									  		<li class="no-padding">
+										  		<a href="http://twitter.com/sportsplex_bthl" target="_blank" title="twitter"><img src="images/icons/twitter-icon.png" alt="Twitter Social" /></a>
+										  		<a href="https://www.facebook.com/sportsplexbethel" target="_blank" title="facebook"><img src="images/icons/facebook-icon.png" alt="Facebook Social" /></a>
+									  		</li>
+										</ul>
+									</div>
 							</div>
 
-							<div class="contact-info dark-background block-padding" >
-								<h2 class="entry-header">Contact Info</h2>
-								<p>13 Stony Hill Rd, Bethel, CT 06801<br />
-									<strong>203-748-8600</strong>
-								</p>
-
-								<a href="mailto:ben@sportsplexbethel.com" class="email">ben@sportsplexbethel.com</a>
-							</div>
 						</div>
 						<div class="col-md-7">
 							<div class="footer-block block-padding light-border">
@@ -732,7 +769,7 @@
 									<div class="col-md-12 col-sm-12">
 										
 										<div class="gmap-container">
-										<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2992.0401545906507!2d-73.3997!3d41.416647!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e7f934b0292629%3A0xe431954e06ce68bd!2sSportsplex+Bethel!5e0!3m2!1sen!2sus!4v1430523007674"  height="230" frameborder="0" style="border:0"></iframe>
+										<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2992.0401545906507!2d-73.3997!3d41.416647!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e7f934b0292629%3A0xe431954e06ce68bd!2sSportsplex+Bethel!5e0!3m2!1sen!2sus!4v1430523007674"  height="300" frameborder="0" style="border:0"></iframe>
 											
 										</div>	
 									</div>
@@ -741,24 +778,39 @@
 								<div class="row">
 									<div class="contact-block">
 										<h3>Contact Us</h3>
-										<form class="contact-form">
+										<form action="/getFormData" method="post" class="contact-form">
 			                                <div class="row">
 			                                    <div class="col-lg-6 col-md-6 col-sm-6">
 			                                        <label for="name">Name</label><input type="text" name="name" class="comments-line" id="name" />
 			                                    </div>
 			                                    <div class="col-lg-6 col-md-6 col-sm-6">
-			                                        <label for="email">E-Mail</label><input type="text" name="email" class="comments-line" id="email" />
+			                                        <label for="phone">Phone Number</label><input type="text" name="phone" class="comments-line" id="phone" />
 			                                    </div>
 			                                </div>
-			                                <textarea name="message" rows="4" class="comments-area"></textarea>
+			                                <div class="row">
+			                                	<div class="col-lg-6 col-md-6 col-sm-6">
+			                                        <label for="email">E-Mail</label><input type="text" name="email" class="comments-line" id="email" />
+			                                	</div>
+			                                </div>
+			                                <label for="email">Comments</label><textarea name="message" rows="4" class="comments-area"></textarea>
 			                                <div class="form-submit">
-			                                    <input type="submit" class="submit contact-button submit contact-send" value="Write a Message" />
+			                                    <input type="submit" name="message" id="message" class="submit contact-button submit contact-send" value="Write a Message" />
 			                                </div>
 			                            </form>
 		                            </div>
 	                            </div>
 
-                            </div>
+
+                            </div>	                            
+								<div class="contact-info dark-background block-padding" >
+									<h2 class="entry-header">Contact Info</h2>
+									<p>13 Stony Hill Rd, Bethel, CT 06801<br />
+										<strong>203-748-8600</strong>
+									</p>
+
+									<a href="mailto:info@sportsplexbethel.com" class="email">info@sportsplexbethel.com</a>
+								</div>
+
 
 						</div>
 					</div> <!-- /.row -->
@@ -776,7 +828,22 @@
 				</div> <!-- /.container -->			
 			</div><!-- /.small-footer -->			
 		</footer><!-- /.main-footer -->
+        <div class="modal fade" id="confirmEmailDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="top:5%">
+          <div class="modal-dialog modal-lg" style="background-color:#061111;">
+            <div class="modal-content" style="background-color:#041111;" >
 
+              <div class="modal-title">
+                <h2>Your message has been sent.  Thank you.</h2>
+                
+              </div>
+              <div class="modal-body">
+                <h2>We will respond to your message shortly!</h2>
+                
+              </div>
+
+            </div>
+          </div>
+        </div>
 	</div> <!-- /.boxed-view -->
 
 	<script type="text/javascript" src="js/gestures.js"></script>
@@ -918,6 +985,20 @@
  	   	$(".daynumber").html("<strong>" + num + "-"+ new Date().getDate() + "</strong>");
 
  	   </script>
+
+ 	<script>
+            $("form").submit(function(e) {
+                e.preventDefault(); // Prevents the page from refreshing
+                var $this = $(this); // `this` refers to the current form element
+                $.post(
+                    $this.attr("action"), // Gets the URL to sent the post to
+                    $this.serialize(), // Serializes form data in standard format
+                    function(data) { /** code to handle response **/ },
+                    "json" // The format the response should be in
+                );
+                $('#confirmEmailDialog').modal('toggle')
+            });
+    </script>
 
 
 </body>

@@ -112,6 +112,16 @@
 					</div>
 				</section>
 
+				<section class="banner-block" style="margin-top:20px;margin-bottom:10px;">
+					<div class="container">
+
+						<a href="images/schedule.pdf" target="_blank" class="btn btn-lg btn-custom">
+                        Click Here For A Printer Friendly Version
+              			  </a>
+
+
+					</div>
+				</section>
 
 			<div  id="timeline_box" class="box timeline-box"><!-- Section Events -->
 				<div class="container">
@@ -334,7 +344,7 @@
 					            <th>
 					                <span>7:00PM</span>
 					            </th>
-					            <td></td>
+					            <td><a title="Cycling" class="salsa" href="#cycling">Salsa</a>Main Studio</td></td>
 					            <td ><a title="Cycling" class="bodypump" href="#cycling">Body Pump</a>Main Studio</td>
 					            <td></td>
 					            <td ><a title="Cycling" class="bodypump" href="#cycling">Body Pump</a>Main Studio</td>
@@ -373,7 +383,7 @@
 		<a id="zumbapop" class="pop btn" rel="popover" data-pointer="zumba" data-title="Zumba" data-content="A Latin-inspired, dance fitness class that incorporates Latin and international music with dance movements, which create a dynamic, exciting and effective fitness system."></a>
 		<a id="tbcpop" class="pop btn" rel="popover" data-pointer="tbc" data-title="Total Body Conditioning" data-content="Incorporate the use of weights, tubes, bands, steps & Body Bars to strengthen and define all major muscle groups."></a>
 		<a id="dppop" class="pop btn" rel="popover" data-pointer="dp" data-title="Les Mills Double Play" data-content=""></a>
-
+		<a id="salsapop" class="pop btn" rel="popover" data-pointer="salsa" data-title="Salsa" data-content="Dance Class."></a>
 
 
 		<footer class="main-footer grey-background">
@@ -590,6 +600,12 @@
      		var position = $(this).offset();
      		positionpop(position);    
      		$('#dppop').popover('toggle');
+	 	});
+	 	$(".salsa").hover(function(){  
+			$(this).css("background","#7114B0");
+     		var position = $(this).offset();
+     		positionpop(position);    
+     		$('#salsapop').popover('toggle');
 	 	});
 
      	function positionpop(position) {	

@@ -63,42 +63,42 @@ var teslaThemes = {
     ]);
   },
 
-  contactform: function () {
-    /* ================= CONTACTS FORM ================= */
-    $(document).ready(function() {  
-      $('.contact-form').each(function(){
-          var t = $(this);
-          var t_result = $('.contact-send');
-          var t_result_init_val = t_result.val();
-          var validate_email = function validateEmail(email) {
-              var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-              return re.test(email);
-          };
-          t.submit(function(event) {
-              //t_result.val('');
-              event.preventDefault();
-              var t_values = {};
-              var t_values_items = t.find('input[name],textarea[name]');
-              t_values_items.each(function() {
-                  t_values[this.name] = $(this).val();
-              });
-              if(t_values['name']===''||t_values['email']===''||t_values['message']===''){
-                  t_result.val('Please fill in all the required fields.');
-              }else
-              if(!validate_email(t_values['email']))
-                  t_result.val('Please provide a valid e-mail.');
-              else
-                  $.post("php/contacts.php", t.serialize(),function(result){
-                      t_result.val(result);
-                  });
-              setTimeout(function(){
-                  t_result.val(t_result_init_val);
-              },3000);
-          });
+  // contactform: function () {
+  //   /* ================= CONTACTS FORM ================= */
+  //   $(document).ready(function() {  
+  //     $('.contact-form').each(function(){
+  //         var t = $(this);
+  //         var t_result = $('.contact-send');
+  //         var t_result_init_val = t_result.val();
+  //         var validate_email = function validateEmail(email) {
+  //             var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  //             return re.test(email);
+  //         };
+  //         t.submit(function(event) {
+  //             //t_result.val('');
+  //             event.preventDefault();
+  //             var t_values = {};
+  //             var t_values_items = t.find('input[name],textarea[name]');
+  //             t_values_items.each(function() {
+  //                 t_values[this.name] = $(this).val();
+  //             });
+  //             if(t_values['name']===''||t_values['email']===''||t_values['message']===''){
+  //                 t_result.val('Please fill in all the required fields.');
+  //             }else
+  //             if(!validate_email(t_values['email']))
+  //                 t_result.val('Please provide a valid e-mail.');
+  //             else
+  //                 $.post("php/contacts.php", t.serialize(),function(result){
+  //                     t_result.val(result);
+  //                 });
+  //             setTimeout(function(){
+  //                 t_result.val(t_result_init_val);
+  //             },3000);
+  //         });
 
-      });
-    });
-  },
+  //     });
+  //   });
+  // },
 
   queryLoader: function () {
     "use strict";

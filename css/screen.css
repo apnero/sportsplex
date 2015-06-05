@@ -428,6 +428,8 @@ form label{
     font-weight: normal;
     text-transform: uppercase;
     color: #fff;
+      margin-bottom: 1px;
+      margin-top: 7px;
 }
 
 input:focus{
@@ -3783,7 +3785,7 @@ table{
   position:absolute;
   top:0px;
   right: 0px;
-  background-color:rgba(0, 0, 0, 0.30);
+  background-color:rgba(0, 0, 0, 0.5);
   z-index:100;
 }
 
@@ -4266,11 +4268,11 @@ figure.invert:hover img{
 
 .main-footer .contact-info{
     margin-top: 40px;
-    padding-bottom: 98px;
+    /*padding-bottom: 98px;*/
 }
 
 .main-footer .contact-info p{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .main-footer .contact-info .entry-header{
@@ -6425,7 +6427,7 @@ color: rgb(238, 213, 255);
 }
 
 .exclass:hover{
-  background-color: rgba(60, 8, 16, 1);
+  background-color: rgba(17, 59, 63, 1);
   z-index:100;
 }
 
@@ -6433,3 +6435,38 @@ color: rgb(238, 213, 255);
 
   color:#ffffff;
 }
+
+
+.btn.btn-custom {
+  background: #db3441;
+  opacity: 0.5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 3px 0 #970837;
+}
+
+.btn.btn-custom:hover {
+  background-color: rgba(243, 238, 244, 0.73);
+  color: #000000;
+}
+
+.contact-info ul {
+    font-family: "RobotoRegular";
+  color: #fffaff;
+  margin: 5px 8px 22px;
+font-size: 18px;
+}
+
+.contact-info li {
+    font-family: "RobotoRegular";
+  color: #6f6f6f;
+font-size: 14px;
+margin-bottom: 1px;
+  margin-right: 15px;
+  margin-top: 3px;
+}
+
