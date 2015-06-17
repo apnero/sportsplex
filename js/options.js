@@ -28,7 +28,7 @@ var teslaThemes = {
         this.gallerySlider();
         this.homeSlider();
         this.pageSlider();
-        this.contactform();
+        // this.contactform();
         this.masonryGallery();
         this.zoomImage();
         this.calcWeight();
