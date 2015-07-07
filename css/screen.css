@@ -4435,7 +4435,7 @@ figure.invert:hover img{
   .timetable tbody th {
       padding: 6px 5px;
   }
-
+}
 /*@media (max-width: 992px) {
 
   body > .main-nav {
@@ -4706,6 +4706,14 @@ figure.invert:hover img{
      #timeline_box > div > table {
         display:none;
      }
+
+    .nav-bar .identity{
+        text-align: center;
+    }
+
+    .nav-bar .identity img{
+        max-height: 100px;
+    }
  
 
 
@@ -4753,16 +4761,12 @@ figure.invert:hover img{
     min-height: 400px;
 
     }
+
+
 }
 
-@media screen and (max-width: 640px){
-    .nav-bar .identity{
-        text-align: center;
-    }
+@media screen and (max-width: 680px){
 
-    .nav-bar .identity img{
-        max-height: 100px;
-    }
 
     body .woocommerce-page .mobile-menu-button{
       right: 130px;
